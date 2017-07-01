@@ -174,7 +174,7 @@ Shader "Xerxes1138/Iridescence"
 				float Dinc = _Dinc;
 				float eta2 = max(_eta2, 1.000277);
 				float eta3 = max(_eta3, 1.000277);
-				float kappa3 = max(_kappa3, 1e-5);
+				float kappa3 = max(_kappa3, 1e-3);
 				float alpha = max(_alpha, 0.05);
 
 				// Force eta_2 -> 1.0 when Dinc -> 0.0
@@ -310,7 +310,7 @@ Shader "Xerxes1138/Iridescence"
 					float Dinc = _Dinc;
 					float eta2 = max(_eta2, 1.000277);
 					float eta3 = max(_eta3, 1.000277);
-					float kappa3 = max(_kappa3, 1e-5);
+					float kappa3 = max(_kappa3, 1e-3);
 					float alpha = max(_alpha, 0.05);
 
 					// Force eta_2 -> 1.0 when Dinc -> 0.0
@@ -381,7 +381,7 @@ Shader "Xerxes1138/Iridescence"
 							float Dinc = _Dinc;
 							float eta2 = max(_eta2, 1.000277);
 							float eta3 = max(_eta3, 1.000277);
-							float kappa3 = max(_kappa3, 1e-5);
+							float kappa3 = max(_kappa3, 1e-3);
 							float alpha = max(_alpha, 0.05);
 
 							// Force eta_2 -> 1.0 when Dinc -> 0.0
@@ -469,7 +469,6 @@ Shader "Xerxes1138/Iridescence"
 				o.vertex = UnityObjectToClipPos(v.vertex);
 				o.worldPos = mul(unity_ObjectToWorld, v.vertex);
 				o.normal = UnityObjectToWorldNormal(v.normal.xyz);
-				UNITY_TRANSFER_FOG(o,o.vertex);
 				return o;
 			}
 
