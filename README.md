@@ -1,3 +1,3 @@
 # Iridescence
 
-![Iridescence](https://www.dropbox.com/s/881nmnwsiogxsfx/Iridescence.png)
+![Iridescence](https://raw.githubusercontent.com/cCharkes/Iridescence/master/Iridescence.png)
