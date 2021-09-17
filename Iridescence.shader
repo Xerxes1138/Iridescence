@@ -1,4 +1,4 @@
-﻿/*Iridescence shader made by @xerxes1138, based on the code from : https://belcour.github.io/blog/research/2017/05/01/brdf-thin-film.html
+﻿/*Iridescence shader made by @xerxes1138, based on the code from : https://belcour.github.io/blog/research/publication/2017/05/01/brdf-thin-film.html
 //
 //
 //
